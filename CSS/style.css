@@ -3,9 +3,18 @@
     --text-color:#212121;
     --addition-color:#2196F3;
     --accent-color: #757575;
-    
+    --footer-color:#2F303A;
   
 
 }
-    
 
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 1.3px;
+    font-weight: 700;
+}
