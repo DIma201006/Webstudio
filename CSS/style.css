@@ -18,3 +18,63 @@
     line-height: 1.3px;
     font-weight: 700;
 }
+.nav link {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height:1.1 ;
+}
+.stodia {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1 ;      
+    font-weight: 500px;
+    font-size: 14px;
+}
+.nav-email{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px;
+}
+.nav-tel{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px;
+}
+.title{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.3px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 900px;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.8px;
+    font-weight: 700px;
+    
+
+}
+
+.wrap-button {
+    text-align: center;
+}
+.hero-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 1.1px;
+
+}
+.text-hero{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.7px;
+    font-weight: 400px;
+}
+
