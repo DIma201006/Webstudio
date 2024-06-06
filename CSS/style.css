@@ -4,6 +4,7 @@
     --addition-color:#2196F3;
     --accent-color: #757575;
     --footer-color:#2F303A;
+    --logo-color:#000;
   
 
 }
@@ -12,11 +13,18 @@
 /* font-family: "Roboto", sans-serif; */
 
 
+
+
 .logo {
+    color: var(--logo-color);
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     line-height: 1.3px;
     font-weight: 700;
+}
+
+.color-logo{
+    color: var(--addition-color);
 }
 .nav link {
     font-family: "Roboto", sans-serif;
@@ -24,6 +32,7 @@
     font-weight: 500px;
     line-height:1.1 ;
 }
+
 .stodia {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -31,39 +40,49 @@
     font-weight: 500px;
     font-size: 14px;
 }
+
 .nav-email{
+    color: var(--background-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height:1.1px ;      
     font-weight: 500px;
     font-size: 14px;
 }
+
 .nav-tel{
+    color: var(--accent-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height:1.1px ;      
     font-weight: 500px;
     font-size: 14px;
 }
+/* секція герой  */
+
 .title{
+    color: var(--background-color);
     font-family: "Roboto", sans-serif;
     line-height: 1.3px;
     font-size: 44px;
     text-align: center;
     font-weight: 900px;
 }
-.button {
+
+.button  {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.8px;
     font-weight: 700px;
-    
+
+
 
 }
 
 .wrap-button {
     text-align: center;
 }
+
 .hero-title{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -71,12 +90,14 @@
     line-height: 1.1px;
 
 }
+
 .text-hero{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.7px;
     font-weight: 400px;
 }
+
 .title-section {
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -84,6 +105,7 @@
     font-weight: 700px;
     line-height: 1.1px;
 }
+
 .title-comand {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -91,6 +113,7 @@
     line-height: 1.1px;
     text-align: center;
 }
+
 .title-tim {
     font-family: "Roboto", sans-serif;
     font-weight: 500px;
@@ -98,6 +121,7 @@
     line-height:1.1px ;
     text-align: center;
 }
+
 .text-comand {
     font-family: "Roboto", sans-serif;
     font-weight: 400px;
@@ -105,12 +129,14 @@
     font-size: 16px;
     text-align: center;
 }
+
 .foter-logo {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     line-height: 1.3px;
     font-weight: 700;
 }
+
 .foter-address {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -118,6 +144,7 @@
     font-weight: 500px;
     font-size: 14px
 }
+
 .foter-email {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -125,6 +152,7 @@
     font-weight: 500px;
     font-size: 14px;
 }
+
 .footer-tel {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -133,7 +161,6 @@
     font-size: 14px;
 }
 
-    
-    
 
-
+    
+     
