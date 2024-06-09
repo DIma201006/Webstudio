@@ -11,7 +11,9 @@
 
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
-
+body {
+    font-family: "Roboto", sans-serif;
+}
 
 
 
@@ -21,28 +23,25 @@
     font-size: 24px;
     line-height: 1.3px;
     font-weight: 700;
+    letter-spacing: 0.78px;
 }
+
 
 .color-logo{
     color: var(--addition-color);
 }
-.nav link {
+.nav-link {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500px;
     line-height:1.1 ;
 }
 
-.stodia {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height:1.1 ;      
-    font-weight: 500px;
-    font-size: 14px;
-}
+
+
 
 .nav-email{
-    color: var(--background-color);
+    color: var(--accent-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height:1.1px ;      
@@ -106,12 +105,26 @@
     line-height: 1.1px;
 }
 
+/* секція сим ми займаемося */
 .title-comand {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700px;
     line-height: 1.1px;
     text-align: center;
+
+}
+.duin-img {
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+
+/* секція наша команда */
+.tim-img {
+    width: 270px;
+height: 260px;
+flex-shrink: 0;
 }
 
 .title-tim {

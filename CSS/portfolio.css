@@ -1,0 +1,136 @@
+:root {
+    --background-color:#FFF;
+    --text-color:#212121;
+    --addition-color:#2196F3;
+    --accent-color: #757575;
+    --footer-color:#2F303A;
+    --logo-color:#000;
+    --portfolio-color:#757575;
+
+}
+
+/*  font-family: "Raleway", sans-serif;*/
+/* font-family: "Roboto", sans-serif; */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.logo-portfolio {
+    color: var(--logo-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 1.3px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+.port-logo {
+    color: var(--addition-color);
+}
+
+.top-link {
+    color:var(--text-color);
+    font-family: "Roboto", sans-serif;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+.top-link:hover {
+color: var(--addition-color);
+}
+
+.top-email {
+    color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px;
+}
+.top-email:hover{
+    color: var(--addition-color);
+}
+.top-tel  {
+    color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px;
+    
+}
+
+.top-tel:hover   {
+    color: var(--addition-color);
+}
+
+ /* секція кнопки  */
+ .port-button {
+    color:var(--text-color);
+
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.6px;
+letter-spacing: 0.48px;
+ }
+
+.port-buton:hover {
+    background-color: var(--addition-color);
+}
+
+    
+
+ /* секція товари */
+ .img-goods {
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+
+ }
+ .title-goods {
+    color:var(--text-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 2px; 
+letter-spacing: 1.08px;
+ }
+ .text-goods {
+    color:var(--portfolio-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.8px;
+letter-spacing: 0.48px;
+ }
+ .address-coordinates {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px
+ }
+
+ .email-basement {
+    color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px;
+ }
+
+ .nomer-footer {
+    color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height:1.1px ;      
+    font-weight: 500px;
+    font-size: 14px;
+ }
