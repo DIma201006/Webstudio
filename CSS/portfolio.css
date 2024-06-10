@@ -110,11 +110,15 @@ line-height: 1.8px;
 letter-spacing: 0.48px;
  }
  .address-coordinates {
+    color: var(--accent-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height:1.1px ;      
     font-weight: 500px;
     font-size: 14px
+ }
+ .address-coordinates:hover {
+    color: var(--addition-color);
  }
 
  .email-basement {
@@ -126,6 +130,9 @@ letter-spacing: 0.48px;
     font-size: 14px;
  }
 
+.email-basement:hover {
+    color: var(--addition-color);
+}
  .nomer-footer {
     color: var(--accent-color);
     font-family: "Roboto", sans-serif;
@@ -133,4 +140,8 @@ letter-spacing: 0.48px;
     line-height:1.1px ;      
     font-weight: 500px;
     font-size: 14px;
+ }
+
+ .nomer-footer:hover {
+    color: var(--addition-color);
  }

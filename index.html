@@ -13,62 +13,66 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="./index.html"><span class="color-logo">Web</span>Studio</a>
+      <a class="header-logo" href="./index.html"><span class="color-logo">Web</span>Studio</a>
       <nav class="nav-heder">
-        <ul class="ul-nav">
-          <li class="li-header"><a class="nav-link" href="./index.html">Студия</a></li>
-          <li class="li-header"><a class="nav-link" href="./pages/portfolio.html">Портфолио</a></li>
-          <li class="li-header"><a class="nav-link" href="#">Контакты</a></li>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
+          <li class="nav-item"><a class="nav-link" href="./pages/portfolio.html">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="heder-ul">
-        <li class="li-nav"><a class="nav-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="li-nav"><a class="nav-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="heder-list">
+        <li class="header-item"><a class="heder-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="header-item"><a class="heder-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
-    <main>
+    <main class="main">
       <!-- Секція герой -->
       <section class="hero-sektion">
-        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-        <div class="wrap-button">
-        <button class="button" type="button">Заказать услугу</button>
-      </div>
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        
+        <button class="hero-button" type="button">Заказать услугу</button>
+      
       </section>
       <!-- Секція переваги -->
 
       <section class="section-perewaga">
-        <ul class="ul-perewaga">
-          <li class="hero-li">
-            <h3 class="hero-title">Внимание к деталям</h3>
-            <p class="text-hero">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <ul class="list-perewaga">
+          <li class="perewaga-item">
+            <img class="perewaga-img" src="./img/antenna.png" alt="antena">
+            <h3 class="perewaga-title">Внимание к деталям</h3>
+            <p class="perewaga-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
           <li class="hero-li">
-            <h3 class="hero-title">Пунктуальность</h3>
-            <p class="text-hero">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <img class="perewaga-img" src="./img/clock.png" alt="clok">
+            <h3 class="perewaga-title">Пунктуальность</h3>
+            <p class="perewaga-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
           </li>
           <li class="hero-li">
-            <h3 class="hero-title">Планирование</h3>
-            <p class="text-hero">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <img class="perewaga-img" src="./img/diagram.png" alt="diagram">
+            <h3 class="perewaga-title">Планирование</h3>
+            <p class="perewaga-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
           </li>
           <li class="hero-li">
-            <h3 class="hero-title">Современные технологии</h3>
-            <p class="text-hero">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <img class="perewaga-img" src="./img/astronaut.png" alt="astronaut">
+            <h3 class="perewaga-title">Современные технологии</h3>
+            <p class="perewaga-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
       <!-- Секція чим ми займаємося -->
-      <section class="duin-sektion">
-        <h2 class="title-duin">Чем мы занимаемся</h2>
-        <ul class="duin-ul">
-            <li class="duin-li"><img class="duin-img" src="./img/computer.jpg" alt="computer"></li> 
-            <li class="duin-li"><img class="duin-img" src="./img/tel.jpg" alt="tel"></li>
-            <li class="duin-li"><img class="duin-img" src="./img/tablet.jpg" alt="tablet"></li>
+      <section class="work-sektion">
+        <h2 class="work-title">Чем мы занимаемся</h2>
+        <ul class="work-list">
+            <li class="work-li"><img class="work-img" src="./img/computer.jpg" alt="computer"></li> 
+            <li class="work-li"><img class="work-img" src="./img/tel.jpg" alt="tel"></li>
+            <li class="work-li"><img class="work-img" src="./img/tablet.jpg" alt="tablet"></li>
         </ul>
       </section>
       <!-- Наша команда -->
       <section class="tim-sektion">
-        <h2 class="title-comand">Наша команда</h2>
-        <ul class="tim-ul">
+        <h2 class="comand-title">Наша команда</h2>
+        <ul class="tim-list">
             <li class="tim-li">
                 <img class="tim-img" src="./img/igor.jpg" alt="Михаил">
                 <h3 class="title-tim">Игорь Демьяненко</h3>
@@ -91,6 +95,22 @@
             </li>
         </ul>
       </section>
+
+       <section>
+        <h1>Постоянные клиенты</h1>
+        <ul>
+            <li><img src="./img/cvadrat.png" alt="cvadrat"></li>
+            <li><img src="./img/2cvadrata.png" alt="2cvadrata"></li>
+            <li><img src="./img/cruwoc.png" alt="cruvok"></li>
+            <li><img src="./img/brand.png" alt="brand"></li>
+            <li><img src="./img/company.png" alt="compani"></li>
+            
+        </ul>
+
+
+
+    </section>
+
     </main>
     <footer>
       <a class="logo" href="./index.html"><span class="color-logo">Web</span> Studio</a>
