@@ -119,9 +119,9 @@ flex-shrink: 0;
 
 /* секція наша команда */
 
-.comand-title{
-    
-}
+/* .comand-title{
+
+} */
 
 .tim-img {
     width: 270px;
@@ -154,7 +154,7 @@ flex-shrink: 0;
     font-weight: 700;
 }
 
-.foter-address {
+.addres-link {
     color: var(--accent-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -163,31 +163,6 @@ flex-shrink: 0;
     font-size: 14px
 }
 
-.foter-email {
-    color: var(--accent-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height:1.1px ;      
-    font-weight: 500px;
-    font-size: 14px;
-}
-
-
-.foter-email:hover {
-    color: var(--addition-color);
-}
-.footer-tel {
-    color: var(--accent-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height:1.1px ;      
-    font-weight: 500px;
-    font-size: 14px;
-}
-
-.footer-tel:hover {
-    color: var(--addition-color);
-}
 
 
 
