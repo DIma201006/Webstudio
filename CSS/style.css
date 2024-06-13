@@ -16,151 +16,159 @@ body {
 }
 
 
-
 .header-logo {
     color: var(--logo-color);
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    line-height: 1.3px;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.38px;
+letter-spacing: 0.78px;
+}
+
+.color-logo {
+    color: var(--addition-color);
+
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 1.38px;
     letter-spacing: 0.78px;
 }
 
-
-.color-logo{
-    color: var(--addition-color);
-}
 .nav-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 500px;
-    line-height:1.1 ;
+    color: #212121;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14px;
+letter-spacing: 0.28px;
+
 }
+
 .nav-link:hover {
     color: var(--addition-color);
 }
 
-
-
-
-.heder-link{
+.heder-link {
     color: var(--accent-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height:1.1px ;      
-    font-weight: 500px;
-    font-size: 14px;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
 }
-
-
 .heder-link:hover {
     color: var(--addition-color);
 }
+/* секція герой */
+.hero-section {
+    background-color: var(--footer-color);
+}
+.hero-title {
+    color:var(--background-color);
+text-align: center;
 
-/* секція герой  */
-
-.hero-title{
-    color: var(--background-color);
-    font-family: "Roboto", sans-serif;
-    line-height: 1.3px;
-    font-size: 44px;
-    text-align: center;
-    font-weight: 900px;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height:  1.5;
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 
-.hero-button  {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.8px;
-    font-weight: 700px;
-    text-align: center;
+.hero-button {
+    color:var(--background-color);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: 0.96px;
 }
-
-/* перевага */
-
-.perewaga-title{
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 700px;
-    line-height: 1.1px;
+/* секція чим ми займаемося */
+.perewaga-title {
+    color: var(--text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.14px; 
+letter-spacing: 0.42px;
+text-transform: uppercase;
 
 }
-
-.perewaga-text{
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height: 1.7px;
-    font-weight: 400px;
+.perewaga-text {
+    color:var(--accent-color); 
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.7px;  
+letter-spacing: 0.42px;
 }
-
-.title-section {
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700px;
-    line-height: 1.1px;
-}
-
-/* секція сим ми займаемося */
+/* секція чим ми займаемося */
 .work-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    font-weight: 700px;
-    line-height: 1.1px;
-    text-align: center;
-
+    color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.16px;
+letter-spacing: 1.08px;
 }
-.work-img {
-    width: 370px;
-height: 294px;
-flex-shrink: 0;
-}
-
-
 /* секція наша команда */
-
-/* .comand-title{
-
-} */
-
-.tim-img {
-    width: 270px;
-height: 260px;
-flex-shrink: 0;
+.comand-title {
+    color: var(--text-color);
+    text-align: center; 
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16px;
+    letter-spacing: 1.08px;
 }
-
-
-
 .title-tim {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height:1.1px ;
+    color:var(--text-color);
     text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1px;
+    letter-spacing: 0.48px;
 }
 
 .text-comand {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400px;
-    line-height: 1.1px;
-    font-size: 16px;
+    color:var(--accent-color);
+
     text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.1px;
+    letter-spacing: 0.48px;
+   
+ 
 }
 
-.foter-logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    line-height: 1.3px;
-    font-weight: 700;
+/* футер */
+
+.address-link {
+    color: var(--background-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14px; 
+letter-spacing: 0.42px;
+
 }
 
-.addres-link {
+
+.heder-link {
     color: var(--accent-color);
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
-    line-height:1.1px ;      
-    font-weight: 500px;
-    font-size: 14px
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
 }
 
 
