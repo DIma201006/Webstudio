@@ -16,7 +16,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.logo-portfolio {
+.header-logo {
     color: var(--logo-color);
     font-family: "Raleway", sans-serif;
 font-size: 26px;
@@ -26,10 +26,10 @@ line-height: 1.38px;
 letter-spacing: 0.78px;
 }
 
-.port-logo {
+.color-logo {
     color: var(--addition-color);
 
-    font-family: "Raleway", sans-serif;;
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -37,8 +37,8 @@ letter-spacing: 0.78px;
     letter-spacing: 0.78px;
 }
 
-.top-link {
-    color: #212121;
+.nav-link {
+    color:var(--text-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -46,11 +46,11 @@ line-height: 1.14px;
 letter-spacing: 0.28px;
 }
 
-.top-link:hover {
+.nav-link:hover {
     color: var(--addition-color);
 }
 
-.list-link {
+.heder-link {
     color: var(--accent-color);
 font-size: 14px;
 font-style: normal;
@@ -58,7 +58,7 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 }
-.link-link:hover {
+.heder-link:hover {
     color: var(--addition-color);
 }
 /* секция кнопки */
@@ -95,16 +95,19 @@ letter-spacing: 0.48px;
 }
 /* футер */
 
-.address-coordinates {
+
+.address-link {
     color: var(--background-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.14px; 
-    letter-spacing: 0.42px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14px; 
+letter-spacing: 0.42px;
+
 }
 
-.item-basement {
+
+.heder-link {
     color: var(--accent-color);
     font-size: 14px;
     font-style: normal;
@@ -112,8 +115,4 @@ letter-spacing: 0.48px;
     line-height: 1.14;
     letter-spacing: 0.28px;
 }
-
-.item-basement:hover {
-    color: var(--addition-color);
-}
-
+ 
