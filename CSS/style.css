@@ -6,8 +6,32 @@
     --footer-color:#2F303A;
     --logo-color:#000;
     --foter-color:#2F303A;
-
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,p {
+margin: 0;
+}
+
+button {
+    margin: 0;  
+    padding: 0;
+    border: 0;
+}
+img {
+    display: block;
+}
+
+
 
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
