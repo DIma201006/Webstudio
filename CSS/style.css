@@ -46,7 +46,7 @@ body {
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.38;
+line-height: 1.38px;
 letter-spacing: 0.78px;
 }
 
@@ -56,8 +56,8 @@ letter-spacing: 0.78px;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 1.38;
+    font-weight: 700px;
+    line-height: 1.38px;
     letter-spacing: 0.78px;
 }
 
@@ -66,7 +66,7 @@ letter-spacing: 0.78px;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.14;
+line-height: 1.14px;
 letter-spacing: 0.28px;
 
 }
@@ -80,7 +80,7 @@ letter-spacing: 0.28px;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.14;
+line-height: 1.14px;
 letter-spacing: 0.28px;
 }
 .heder-link:hover {
@@ -111,7 +111,7 @@ text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 30; 
+line-height: 30px; 
 letter-spacing: 0.96px;
 background-color: var(--addition-color);
 }
@@ -200,7 +200,7 @@ letter-spacing: 0.78px;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.38;
+line-height: 1.38px;
 letter-spacing: 0.78px; 
 
 }
@@ -211,7 +211,7 @@ letter-spacing: 0.78px;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24; 
+    line-height: 24px; 
     letter-spacing: 0.42px;
 
 
