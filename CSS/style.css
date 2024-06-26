@@ -27,8 +27,8 @@
     width:1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left:19px;
-    padding-right: 19px;
+    padding-left:15px;
+    padding-right: 15px;
     
 }
 
@@ -43,7 +43,7 @@ body {
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.38px;
+line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
@@ -54,7 +54,7 @@ letter-spacing: 0.78px;
     font-size: 26px;
     font-style: normal;
     font-weight: 700px;
-    line-height: 1.38px;
+    line-height: 1.38;
     letter-spacing: 0.78px;
 }
 
@@ -63,7 +63,7 @@ letter-spacing: 0.78px;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.28px;
 
 }
@@ -77,7 +77,7 @@ letter-spacing: 0.28px;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .heder-link:hover {
