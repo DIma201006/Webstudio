@@ -6,37 +6,33 @@
     --footer-color:#2F303A;
     --logo-color:#000;
     --foter-color:#2F303A;
-
 }
 
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-h1,h2,h3,h4,p {
-margin: 0;
-}
-
-button {
-    margin: 0;  
-    padding: 0;
-    border: 0;
-}
-img {display: block;}
 
 
 /*  font-family: "Raleway", sans-serif;*/
 /* font-family: "Roboto", sans-serif; */
 
+
+.container {
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:19px;
+    padding-right: 19px;
+    
+}
+
+ 
+
 body {
     font-family: "Roboto", sans-serif;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
 }
 
 .header-logo {
@@ -89,6 +85,11 @@ letter-spacing: 0.28px;
     color: var(--addition-color);
 }
 /* секция кнопки */
+
+.section-button {
+    padding-top: 94px;
+}
+
 .port-button {
     color: var(--text-color);
 text-align: center;
@@ -100,6 +101,12 @@ letter-spacing: 0.48px;
 }
 /* секція товари */
 
+
+.goods-section {
+    padding-top: 50px;
+    padding-bottom: 114px;
+   
+}
 
 .goods-title {
     color: #212121;
@@ -124,6 +131,8 @@ letter-spacing: 0.48px;
 
 .footer {
     background-color: var(--foter-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
