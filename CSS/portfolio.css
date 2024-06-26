@@ -85,9 +85,12 @@ letter-spacing: 0.28px;
 .heder-link:hover {
     color: var(--addition-color);
 }
-/* секция кнопки */
 
-.section-button {
+
+
+/* секція товари */
+
+.goods-section {
     padding-top: 94px;
 }
 
@@ -100,14 +103,10 @@ font-weight: 500;
 line-height: 1.6; 
 letter-spacing: 0.48px;
 }
-/* секція товари */
 
 
-.goods-section {
-    padding-top: 50px;
-    padding-bottom: 114px;
-   
-}
+
+
 
 .goods-title {
     color: #212121;
