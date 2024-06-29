@@ -15,7 +15,6 @@
 
 
 .container {
-    outline: solid red;
     width:1200px;
     margin-left: auto;
     margin-right: auto;
@@ -36,12 +35,22 @@ body {
 
 }
 
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
 .header-logo {
     color: var(--logo-color);
     font-family: "Raleway", sans-serif;
 font-size: 26px;
 font-style: normal;
-font-weight: 700px;
+font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
@@ -52,13 +61,18 @@ letter-spacing: 0.78px;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
 
 .footer-color {
     color: var(--background-color);
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
 }
 
 .nav-link {
@@ -72,6 +86,12 @@ letter-spacing: 0.28px;
 
 .nav-link:hover {
     color: var(--addition-color);
+}
+
+.heder-list {
+    display: flex;
+    gap: 50px;
+    
 }
 
 .heder-link {
@@ -92,20 +112,49 @@ letter-spacing: 0.28px;
 
 .goods-section {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.port-button {
-    color: var(--text-color);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.6; 
-letter-spacing: 0.48px;
+.list-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+    
 }
 
 
+.port-buton {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--head-text);
+    background-color: var(--background-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 22px;
+}
 
+
+.port-buton:hover,
+.port-buton:focus {
+color: var(--background-color);
+background-color: var(--addition-color);
+border-radius: 4px;
+}
+
+.goods-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+    .goods-item {
+    flex-basis: calc((100% - 60px) /3 );
+    }
 
 
 .goods-title {
@@ -165,6 +214,16 @@ font-weight: 400;
 line-height: 1.14; 
 letter-spacing: 0.42px;
 
+}
+
+
+.heder-link{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    }
+    
+.heder-link:last-child{
+    margin-bottom: 0px;
 }
 
 
