@@ -228,7 +228,6 @@ font-style: normal;
 font-weight: 700;
 line-height:  1.38;
 letter-spacing: 0.78px;
-
 }
 
 .footer-color {
@@ -244,7 +243,6 @@ letter-spacing: 0.78px;
 
 .address-link {
     color: var(--background-color);
-
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
