@@ -167,6 +167,7 @@ letter-spacing: 0.28px;
     border: none;
     cursor: pointer;
     padding: 6px 22px;
+
 }
 
 
@@ -175,6 +176,7 @@ letter-spacing: 0.28px;
 color: var(--background-color);
 background-color: var(--addition-color);
 border-radius: 4px;
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .goods-list {
@@ -186,6 +188,10 @@ border-radius: 4px;
     .goods-item {
     flex-basis: calc((100% - 60px) /3 );
     }
+
+.goods-item:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 
     .diw-gods {
         padding-top: 20px;
@@ -217,52 +223,52 @@ margin-top: 4px;
 /* футер */
 
 .footer {
-    background-color: var(--foter-color);
-    padding-top: 60px;
-padding-bottom: 60px;
+  background-color: var(--foter-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
-color: var(--background-color);
-font-family: "Raleway", sans-serif;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height:  1.38;
-letter-spacing: 0.78px;
-margin-bottom: 20px;
+  color: var(--background-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
 }
 
 .footer-color {
-    color: var(--addition-color);
-    font-family: "Raleway", sans-serif;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.38;
-letter-spacing: 0.78px; 
-
+  color: var(--addition-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
 }
-
 .address-link {
-    color: var(--background-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.42px;
-    margin-bottom: 9px;
+  color: var(--background-color);
 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+.foter-li {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .heder-link {
-    color: var(--accent-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
-    margin-top: 9px;
+  color: var(--accent-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
 }
 
 
