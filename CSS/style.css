@@ -104,6 +104,11 @@ body {
   letter-spacing: 0.28px;
 }
 
+
+.lin {
+  color: var(--addition-color);
+}
+
 .nav-link:hover {
   color: var(--addition-color);
 }
