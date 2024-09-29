@@ -105,11 +105,21 @@ body {
 }
 
 
+/* .nav-link:nth-child(1):hover {
+  border-bottom:solid 4px  #2196f3 ;
+  border-radius: 2px;
+} */
+
+
 .lin {
   color: var(--addition-color);
 }
 
 .nav-link:hover {
+  color: var(--addition-color);
+}
+
+.nav-link:focus {
   color: var(--addition-color);
 }
 
@@ -132,12 +142,21 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
 }
-.heder-link:hover {
+.heder-link:hover  {
   color: var(--addition-color);
 }
 
+ .heder-link:focus {
+   color: var(--addition-color);
+ }
+
 
 .header-item:hover .header-svg {
+fill: #2196f3;
+}
+
+
+.heder-link:focus .header-svg {
 fill: #2196f3;
 }
 
@@ -145,6 +164,10 @@ fill: #2196f3;
 fill: #757575;
   margin-right: 5px;
 }
+
+/* .header-svg:focus {
+  fill: #2196f3;
+} */
 
 
 /* секція герой */
@@ -311,9 +334,30 @@ margin-bottom: 30px;
   margin-bottom: 50px;
 }
 
+
+/* .work-img {
+  position: relative;
+} */
+
 .work-list {
   display: flex;
   gap: 30px;
+  position: relative;
+}
+
+
+
+.work-text {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+position: absolute;
 }
 
 /* секція наша команда */
@@ -409,6 +453,10 @@ background-color: #2196f3;
   fill: #FFFFFF;
 }
 
+.social-link:focus .social-svg {
+    fill: #FFFFFF;
+}
+
 .social-svg {
 fill: #AFB1B8;
 }
@@ -442,8 +490,12 @@ margin-bottom: 50px;
   gap: 30px;
 }
 
-.client-item {
-  padding: 16px 32px;
+
+.client-link {
+  padding-bottom: 16px;
+padding-top: 56px;
+padding-right: 32px;
+padding-left: 32px;
   border-radius: 4px;
 border: 1px solid #AFB1B8;
 }
@@ -452,14 +504,23 @@ border: 1px solid #AFB1B8;
   fill: #AFB1B8;
 }
 
-.client-item:hover .client-svg {
+.client-link:hover .client-svg {
 fill: #2196f3;
 }
 
-.client-item:hover , .client-item:focus {
+.client-link:focus .client-svg {
+  fill: #2196f3;
+}
+
+/* .client-link:hover   {
   border-radius: 4px;
 border: 1px solid #2196f3;
 }
+
+.client-link:focus {
+    border-radius: 4px;
+border: 1px solid #2196f3;
+} */
 
 /* футер */
 
@@ -547,6 +608,10 @@ background-color: #2196f3;
 .footer-social-link:hover .social-svg {
   fill: #FFFFFF;
 
+}
+
+.footer-social-link:focus .social-svg {
+    fill: #FFFFFF;
 }
 
 .footer-box {
