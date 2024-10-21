@@ -509,12 +509,13 @@ margin-bottom: 50px;
 
 
 .client-link {
-  padding-bottom: 16px;
-padding-top: 56px;
-padding-right: 32px;
-padding-left: 32px;
+width: 170px;
+height: 92px;
   border-radius: 4px;
 border: 1px solid #AFB1B8;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .client-svg {
@@ -637,8 +638,284 @@ background-color: #2196f3;
 }
 
 
+.subscribe-form {
+  position: relative;
+}
+
+
+
+.subscribe-lebel {
+  display: block;
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.subscribe-input {
+  border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 358px;
+height: 50px;
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.48px;
+padding-left: 16px;
+}
 
 
 
 
+.subscribe-button {
+  margin-left: 12px;
+  padding: 10px 62px 10px 29px;
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.icon-telegram {
+width: 24px;
+height: 24px;
+fill: #FFF;
+position: absolute;
+    right: 29px;
+    top: 50px;
+} 
+
+
+/* =============модальне вікно================ */
+
+
+
+.backdrop {
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.20);
+opacity: 1;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+
+
+.modal {
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  /* width: 528px;
+  height: 581px; */
+  border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:transparent;
+border: 1px solid  rgba(0, 0, 0, 0.10);
+}
+.modal-close:focus .close-svg,
+.modal-close:hover .close-svg {
+  fill: #2196F3;
+}
+
+.modal-close:focus {
+  border: none;
+  outline:1px solid  rgba(0, 0, 0, 0.10);
+}
+
+
+
+.close-svg {
+ width: 18px;
+height: 18px;
+  fill: #000000;
+}
+
+.modal-title {
+  color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+
+.modal-lebel {
+  display: block;
+  margin-bottom: 4px;
+  color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+
+
+.modal-input {
+  width: 448px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-bottom: 10px;
+padding-left: 42px;
+padding-right: 20px;
+}
+
+
+.modal-input:hover,
+.modal-input:focus {
+outline: 1px solid #2196F3;
+}
+
+
+.modal-svg:hover .modal-icon,
+.modal-svg:focus .modal-icon {
+fill: #2196f3;
+}
+
+
+.modal-icon {
+  width: 18px;
+height: 18px;
+position: absolute;
+top: 11px;
+left: 12px;
+}
+
+.modal-svg {
+  position: relative;
+}
+
+
+.koment-label {
+  color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+margin-bottom: 4px;
+display: block;
+}
+
+
+.koment-text {
+padding: 12px 16px;
+width: 448px;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+resize: none;
+}
+
+
+
+
+
+
+.checked-lebel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+
+.input-checked {
+  width: 16px;
+height: 15px;
+color: #2196F3;
+}
+
+.text-checked {
+  color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+
+.link-checked {
+  color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+
+.modal-button {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: #188CE8;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 10px 55px;
+margin-top: 30px;
+margin-right: 124px;
+margin-left: 124px; 
+}
 
