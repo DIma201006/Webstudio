@@ -710,9 +710,6 @@ position: absolute;
 
 
 .backdrop {
-  /* justify-content: center;
-  align-items: center;
-  display: flex; */
 position: fixed;
 top: 0;
 left: 0;
@@ -736,8 +733,6 @@ opacity: 1;
   left: 50%;
   position: absolute;
   transform:translate(-50%,-50%);
-  /* width: 528px;
-  height: 581px; */
   border-radius: 4px;
 background: #FFF;
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
@@ -884,7 +879,7 @@ font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 24px; 
 letter-spacing: 0.42px;
 }
 
@@ -908,7 +903,7 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 30px; /* 187.5% */
+line-height: 30px;
 letter-spacing: 0.96px;
 border-radius: 4px;
 background: #188CE8;
