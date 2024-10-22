@@ -272,10 +272,23 @@ margin-top: 4px;
 }
 /* футер */
 
+
+
 .footer {
   background-color: var(--foter-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+
+
+.footer-div {
+  margin-right: 70px; 
 }
 
 .footer-logo {
@@ -312,7 +325,6 @@ margin-top: 4px;
   margin-bottom: 9px;
 }
 
-
 .heder-link {
   color: var(--accent-color);
   font-size: 14px;
@@ -321,6 +333,131 @@ margin-top: 4px;
   line-height: 1.14;
   letter-spacing: 0.28px;
 }
+
+.join-footer {
+  margin-right: auto;
+}
+
+
+.join-title {
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+ gap: 10px;
+}
+.footer-social-link {
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color:  rgba(255, 255, 255, 0.10);
+}
+
+.footer-social-link:hover,
+ .footer-social-link:focus {
+background-color: #2196f3;
+}
+
+.footer-social-link:hover .social-svg {
+  fill: #FFFFFF;
+
+}
+
+
+.footer-social-svg {
+    fill: #FFFFFF;
+}
+
+
+/* .footer-social-link:hover .footer-social-svg {
+  fill: #FFFFFF;
+}
+
+.footer-social-link:focus .footer-social-svg {
+    fill: #FFFFFF;
+} */
+
+
+
+
+.subscribe-form {
+  position: relative;
+}
+
+
+
+.subscribe-lebel {
+  display: block;
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.subscribe-input {
+  border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 358px;
+height: 50px;
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.48px;
+padding-left: 16px;
+}
+
+
+
+
+.subscribe-button {
+  margin-left: 12px;
+  padding: 10px 62px 10px 29px;
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.icon-telegram {
+width: 24px;
+height: 24px;
+fill: #FFF;
+position: absolute;
+    right: 29px;
+    top: 50px;
+} 
+
 
 
 
