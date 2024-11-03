@@ -28,6 +28,9 @@
     border: none;
     cursor: pointer;
     padding: 6px 22px;
+          transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:background-color,color,box-shadow;
 
 }
 
@@ -48,15 +51,19 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0
     }
     .goods-item {
     flex-basis: calc((100% - 60px) /3 );
+              transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:box-shadow;
     }
 
-.goods-item:hover {
+.goods-item:hover,
+.goods-item:focus {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.goods-link:focus {
+/* .goods-link:focus {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .div-goods-box {
     position: relative;
@@ -73,7 +80,17 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0
         }
 }
 
-/* ?sdasd */
+.goods-link {
+                  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity; 
+}
+
+.goods-link:focus {
+        .goods-text-img {
+            opacity: 1;
+        }
+    }
 
     .goods-text-img {
 color: #FFF;
@@ -89,7 +106,9 @@ left: 0px;
 padding: 63px 24px;
 opacity: 0;
 background: rgba(33, 150, 243, 0.90);
-
+              transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity ;
     }
 
      .diw-gods {
