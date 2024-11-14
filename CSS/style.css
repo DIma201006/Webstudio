@@ -82,7 +82,15 @@ body {
   line-height: 1.38;
   letter-spacing: 0.78px;
   margin-right: 93px;
+
 }
+
+
+
+
+
+
+
 
 .color-logo {
   color: var(--addition-color);
@@ -258,8 +266,10 @@ fill: #757575;
   padding-top: 10px;
   padding-left: 32px;
   padding-right: 32px;
-
 }
+
+
+
 
 
 
@@ -1038,5 +1048,38 @@ padding: 10px 55px;
 margin-top: 30px;
 margin-right: 124px;
 margin-left: 124px; 
+  animation-duration: 500ms;
 }
 
+.modal-button:hover,
+.modal-button:focus {
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: -1px 0px 25px 4px #1b7fd1;
+
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: -1px 0px 10px 3px #1b7fd1;
+
+  }
+  100% {
+    transform: scale(1);
+box-shadow: -1px 0px 30px 9px #1b7fd1;
+
+
+  }
+}
+
+/* .puls-button {
+
+}
+
+
+.modal-button:hover .
+.modal-button:focus */
