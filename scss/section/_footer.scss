@@ -1,0 +1,214 @@
+
+.footer {
+  background-color: var(--foter-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+
+
+.footer-div {
+  margin-right: 70px; 
+}
+
+.footer-logo {
+  color: var(--background-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+}
+
+.footer-color {
+  color: var(--addition-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+}
+.address-link {
+  color: var(--background-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+
+
+
+.footer-list {
+display: flex;
+flex-wrap: wrap;
+gap: 9px;
+margin-top: 9px;
+  width: 231px;
+
+}
+
+
+.footer-link {
+  color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+
+
+.join-footer {
+  margin-right: auto;
+}
+
+
+.join-title {
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+ gap: 10px;
+}
+.footer-social-link {
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color:  rgba(255, 255, 255, 0.10);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.footer-social-link:hover,
+ .footer-social-link:focus {
+background-color: #2196f3;
+}
+
+.footer-social-link:hover .social-svg {
+  fill: #FFFFFF;
+
+}
+
+
+.footer-social-svg {
+    fill: #FFFFFF;
+      transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+}
+
+
+/* .footer-social-link:hover .footer-social-svg {
+  fill: #FFFFFF;
+}
+
+.footer-social-link:focus .footer-social-svg {
+    fill: #FFFFFF;
+} */
+
+
+
+
+.subscribe-form {
+  position: relative;
+}
+
+
+
+.subscribe-lebel {
+  display: block;
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.subscribe-input {
+  border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 358px;
+height: 50px;
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.48px;
+padding-left: 16px;
+}
+
+
+
+
+.subscribe-button {
+  margin-left: 12px;
+  padding: 10px 62px 10px 29px;
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.icon-telegram {
+width: 24px;
+height: 24px;
+fill: #FFF;
+position: absolute;
+    right: 29px;
+    top: 50px;
+} 

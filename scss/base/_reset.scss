@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    margin: 0;
 }
 
 ul {
@@ -8,15 +9,21 @@ ul {
     list-style: none;
 }
 
-h1,h2,h3,h4,p {
-margin: 0;
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
 }
 
+
 button {
-    margin: 0;  
+    margin: 0;
     padding: 0;
     border: 0;
 }
+
 img {
     display: block;
 }
