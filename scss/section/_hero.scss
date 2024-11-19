@@ -1,10 +1,45 @@
 
-.hero-sektion {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient( rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),url(../img/hero-font.jpg);
   background-repeat:no-repeat;
   background-size: cover;
+
+&__case {
+    text-align: center;
+  }
+
+    &__title {
+      color: $background-color;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 1.5;
+      letter-spacing: 2.64px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      width: 696px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+        &__button {
+          flex-shrink: 0;
+          color: $background-color;
+          text-align: center;
+          font-size: 16px;
+          font-style: normal;
+          line-height: 30px;
+          letter-spacing: 0.96px;
+          background-color: $addition-color;
+          border-radius: 4px;
+          font-weight: 700;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-left: 32px;
+          padding-right: 32px;
+        }
 }
 
 
@@ -12,39 +47,9 @@
 
 
 
-.case {
-  text-align: center;
-}
 
-.hero-title {
-  color: var(--background-color);
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 1.5;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  width: 696px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.hero-button {
-  flex-shrink: 0;
-  color: var(--background-color);
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 30px;
-  letter-spacing: 0.96px;
-  background-color: var(--addition-color);
-  border-radius: 4px;
-  font-weight: 700;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
+
+
 
 
