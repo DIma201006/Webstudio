@@ -1,247 +1,4 @@
 
-// .backdrop {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: rgba(0, 0, 0, 0.20);
-//   opacity: 1;
-// }
-
-// .is-hidden {
-//   opacity: 0;
-//   pointer-events: none;
-//   visibility: hidden;
-// }
-
-
-// .modal {
-//   padding: 40px;
-//   top: 50%;
-//   left: 50%;
-//   position: absolute;
-//   transform:translate(-50%,-50%);
-//   border-radius: 4px;
-// background: $background-color;
-// box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-
-
-
-//     &__close {
-//       position: absolute;
-//       top: 8px;
-//       right: 8px;
-//       width: 30px;
-//       height: 30px;
-//       border-radius: 50%;
-//       display: flex;
-//       justify-content: center;
-//       align-items: center;
-//       background-color: transparent;
-//       border: 1px solid rgba(0, 0, 0, 0.10);
-//     }
-  
-//     &__close:focus &__close-svg,
-//     &__close:hover&__.close-svg {
-//       fill: $addition-color;
-//     }
-  
-//     &__close:focus {
-//       border: none;
-//       outline: 1px solid rgba(0, 0, 0, 0.10);
-//     }
-  
-  
-  
-//     &__close-svg {
-//       width: 18px;
-//       height: 18px;
-//       fill: $logo-color;
-//       transition-duration: 250ms;
-//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//       transition-property: fill;
-//     }
-  
-//     &__title {
-//       color: $text-color;
-//       text-align: center;
-//       font-family: Roboto;
-//       font-size: 20px;
-//       font-style: normal;
-//       font-weight: 700;
-//       line-height: normal;
-//       letter-spacing: 0.6px;
-//       margin-bottom: 12px;
-//     }
-  
-//     &__lebel {
-//       display: block;
-//       margin-bottom: 4px;
-//       color: $accent-color;
-//       font-family: Roboto;
-//       font-size: 12px;
-//       font-style: normal;
-//       font-weight: 400;
-//       line-height: normal;
-//       letter-spacing: 0.12px;
-//     }
-  
-  
-//     &__input {
-//       width: 448px;
-//       height: 40px;
-//       border-radius: 4px;
-//       border: 1px solid rgba(33, 33, 33, 0.20);
-//       margin-bottom: 10px;
-//       padding-left: 42px;
-//       padding-right: 20px;
-//       transition-duration: 250ms;
-//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//       transition-property: outline;
-//     }
-  
-  
-//     &__input:hover,
-//     &__input:focus {
-//       outline: 1px solid $addition-color;
-//     }
-  
-  
-//     &__svg:hover &__icon,
-//     &__svg:focus &__icon {
-//       fill: $addition-color;
-//     }
-  
-  
-//     &__icon {
-//       width: 18px;
-//       height: 18px;
-//       position: absolute;
-//       top: 11px;
-//       left: 12px;
-//       transition-duration: 250ms;
-//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//       transition-property: fill;
-//     }
-  
-//     &__svg {
-//       position: relative;
-//     }
-  
-  
-//     &__koment-label {
-//       color: $accent-color;
-//       font-family: Roboto;
-//       font-size: 12px;
-//       font-style: normal;
-//       font-weight: 400;
-//       line-height: normal;
-//       letter-spacing: 0.12px;
-//       margin-bottom: 4px;
-//       display: block;
-//     }
-  
-  
-//     &__koment-text {
-//       padding: 12px 16px;
-//       width: 448px;
-//       height: 120px;
-//       border-radius: 4px;
-//       border: 1px solid rgba(33, 33, 33, 0.20);
-//       resize: none;
-//     }
-  
-  
-  
-  
-  
-  
-//     &__checked-lebel {
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//       margin-top: 20px;
-//       gap: 8px;
-//     }
-  
-  
-//     &__input-checked {
-//       width: 16px;
-//       height: 15px;
-//       color: $addition-color;
-//     }
-  
-//     &__text-checked {
-//       color: $accent-color;
-//       font-family: Roboto;
-//       font-size: 14px;
-//       font-style: normal;
-//       font-weight: 400;
-//       line-height: 24px;
-//       letter-spacing: 0.42px;
-//     }
-  
-  
-//     &__link-checked {
-//       color: $addition-color;
-//       font-family: Roboto;
-//       font-size: 14px;
-//       font-style: normal;
-//       font-weight: 400;
-//       line-height: 24px;
-//       letter-spacing: 0.42px;
-//       text-decoration-line: underline;
-//     }
-  
-  
-//     &__button {
-//       color: $background-color;
-//       text-align: center;
-//       font-family: Roboto;
-//       font-size: 16px;
-//       font-style: normal;
-//       font-weight: 700;
-//       line-height: 30px;
-//       letter-spacing: 0.96px;
-//       border-radius: 4px;
-//       background: $addition-color;
-//       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-//       padding: 10px 55px;
-//       margin-top: 30px;
-//       margin-right: 124px;
-//       margin-left: 124px;
-//       animation-duration: 500ms;
-//     }
-  
-//     &__button:hover,
-//     &__button:focus {
-//       animation-name: pulse;
-//       animation-iteration-count: infinite;
-//     }
-  
-//     @keyframes pulse {
-//       0% {
-//         transform: scale(1);
-//         box-shadow: -1px 0px 25px 4px$puls-color;
-  
-//       }
-  
-//       50% {
-//         transform: scale(1.02);
-//         box-shadow: -1px 0px 10px 3px $puls-color;
-  
-//       }
-  
-//       100% {
-//         transform: scale(1);
-//         box-shadow: -1px 0px 30px 9px$puls-color;
-  
-  
-//       }
-//     }
-// }
-
 
 .backdrop {
   position: fixed;
@@ -278,9 +35,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@include flex-box;
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.10);
   }
@@ -299,8 +54,7 @@
                   width: 18px;
                   height: 18px;
                   fill: #000000;
-                  transition-duration: 250ms;
-                  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                @include transition;
                   transition-property: fill;
                 }
 
@@ -336,8 +90,7 @@
   margin-bottom: 10px;
   padding-left: 42px;
   padding-right: 20px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition;
   transition-property: outline;
 }
 
@@ -359,8 +112,7 @@
   position: absolute;
   top: 11px;
   left: 12px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition;
   transition-property: fill;
 }
 
@@ -397,9 +149,7 @@
 
 
 &__checked-lebel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@include flex-box;
   margin-top: 20px;
   gap: 8px;
 }

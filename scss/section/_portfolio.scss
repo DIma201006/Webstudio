@@ -22,8 +22,7 @@
             border: none;
             cursor: pointer;
             padding: 6px 22px;
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            @include transition;
             transition-property: background-color, color, box-shadow;
         }
     
@@ -45,8 +44,7 @@
     
         &__item {
             flex-basis: calc((100% - 60px) / 3);
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            @include transition;
             transition-property: box-shadow;
         }
     
@@ -68,11 +66,13 @@
         }
     
         &__div-box:hover &__text-img {
-        animation-name: overley;
+        opacity: 1;
+            transform: translateY(-100%);
         }
     
         &__link:focus  &__text-img {
-                animation-name: overley;
+                opacity: 1;
+                    transform: translateY(-100%);
         }
     
         &__text-img {
@@ -87,22 +87,14 @@
             top: 100%;
             left: 0;
             padding: 63px 24px;
-            animation-duration: 250ms;
+                    transition-duration: 250ms;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                        transition-property: opacity ,transform; 
             background: rgba(33, 150, 243, 0.9);
             opacity: 0;
         }
     
-        @keyframes overley {
-            10% {
-                opacity: 1;
-                transform: translateY(-10%);
-            }
-    
-            100% {
-                opacity: 1;
-                transform: translateY(-100%);
-            }
-        }
+ 
     
         &__div {
             padding-top: 20px;

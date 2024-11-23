@@ -6,8 +6,7 @@
 
 
   &__box {
-      display: flex;
-      align-items: baseline;
+      @include flex-box($justify:start,$align:baseline);
     }
 
         &__div {
@@ -105,9 +104,7 @@
         }
     
         &__social-link {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          @include flex-box;
           width: 44px;
           height: 44px;
           border-radius: 50%;

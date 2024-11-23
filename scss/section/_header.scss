@@ -5,8 +5,7 @@
   padding-bottom: 25px;
 
   &__box {
-      display: flex;
-      align-items: center;
+   @include flex-box($justify:start);
     }
 
         &__logo {
@@ -49,8 +48,7 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@include transition;
   transition-property: color;
 }
 
@@ -83,8 +81,9 @@
 }
 
 &__item {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
+  @include flex-box($justify:start);
 }
 
 &__link {
@@ -95,8 +94,7 @@
   line-height: 1.14;
   letter-spacing: 0.28px;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@include transition;
   transition-property: color;
 }
 
@@ -120,8 +118,7 @@
    fill: $accent-color;
    margin-right: 5px;
    letter-spacing: 0.28px;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   @include transition;
    transition-property: fill;
  }
 }
