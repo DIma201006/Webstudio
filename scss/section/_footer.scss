@@ -6,32 +6,76 @@
 
 
   &__box {
-      @include flex-box($justify:start,$align:baseline);
+      
+
+      @media screen and (min-width: 768px) {
+        display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+      @media screen and (min-width: 1200px) {
+          flex-wrap: nowrap;
+        }
     }
 
         &__div {
-          margin-right: 70px;
+        
+          margin-bottom: 60px;
+          text-align: center;
+       
+          
+
+          @media screen and (min-width: 768px) {
+              text-align: start;
+                margin-right: 165px;
+                
+                    justify-content: center;
+            }
+
+            @media screen and (min-width: 1200px) {
+                margin-right: 60px;
+                justify-content: start;
+                flex-wrap: nowrap;
+              }
         }
+              
     
         &__logo {
           color: $background-color;
           font-family: "Raleway", sans-serif;
-          font-size: 26px;
+          font-size: 24px;
           font-style: normal;
           font-weight: 700;
-          line-height: 1.38;
-          letter-spacing: 0.78px;
+          letter-spacing: 0.72px;
+
+
+                @media screen and (min-width: 1200px) {
+                      font-size: 26px;
+                        letter-spacing: 0.78px;
+                          line-height: 1.38;
+                  }
         }
     
         &__color {
           color: $addition-color;
-          font-family: "Raleway", sans-serif;
-          font-size: 26px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 1.38;
-          letter-spacing: 0.78px;
+  font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+ 
+              @media screen and (min-width: 1200px) {
+                font-size: 26px;
+                letter-spacing: 0.78px;
+                line-height: 1.38;
+              }
         }
+
+                &__adres {
+                  margin-top: 20px;
+                }
+
     
         &__address-link {
           color: $background-color;
@@ -40,18 +84,24 @@
           font-weight: 400;
           line-height: 24px;
           letter-spacing: 0.42px;
-          margin-top: 20px;
+          text-align: center;
+
+          @media screen and (min-width: 1200px) {
+              text-align: start;
+            }
         }
     
     
     
         &__list {
-          display: flex;
+          // display: flex;
           flex-wrap: wrap;
           gap: 9px;
           margin-top: 9px;
-          width: 231px;
     
+          @media screen and (min-width: 1200px) {
+              width: 240px;
+            }
         }
     
     
@@ -82,7 +132,11 @@
     
     
         &__join {
-          margin-right: auto;
+          
+         
+          @media screen and (min-width: 768px) {
+              margin-right: auto;
+            }
         }
     
     
@@ -96,15 +150,27 @@
           letter-spacing: 0.42px;
           text-transform: uppercase;
           margin-bottom: 20px;
+          text-align: center;
+          
+
+          @media screen and (min-width: 1200px) {
+             text-align: start;
+            }
         }
     
         &__social-list {
           display: flex;
           gap: 10px;
+           justify-content: center;
+           margin-bottom: 60px;
+@media screen and (min-width: 768px) {
+    justify-content: start;
+    margin-bottom: 0px;
+  }
         }
     
         &__social-link {
-          @include flex-box;
+      @include flex-box;
           width: 44px;
           height: 44px;
           border-radius: 50%;
@@ -124,13 +190,7 @@
         
                 }
 
-                
-&__social-svg {
-    fill:$background-color;
-      transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill;
-}
+
 
 
 /* .footer-social-link:hover .footer-social-svg {
@@ -144,60 +204,16 @@
 
 
 
-&__subscribe-form {
-  position: relative;
-}
-
-
-
-&__subscribe-lebel {
-  display: block;
-  color:$background-color;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-margin-bottom: 20px;
-}
-
-&__subscribe-input {
-  border-radius: 4px;
-border: 1px solid rgba(255, 255, 255, 0.30);
-background: rgba(33, 150, 243, 0.00);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-width: 358px;
-height: 50px;
-color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; 
-letter-spacing: 0.48px;
-padding-left: 16px;
-}
 
 
 
 
-&__subscribe-button {
-  margin-left: 12px;
-  padding: 10px 62px 10px 29px;
-  color:$background-color;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.96px;
-border-radius: 4px;
-background:$addition-color;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+
+
+
+
+
+
 
 
 
@@ -206,9 +222,19 @@ width: 24px;
 height: 24px;
 fill: $background-color;
 position: absolute;
-    right: 29px;
-    top: 50px;
+    right: 147px;
+      top: 118px;
+
+    @media screen and (min-width: 768px) {
+          right: 173px;
+            top: 120px;
+      }
+
+    @media screen and (min-width: 1200px) {
+      right: 29px;
+        top: 50px;
 } 
+}
 
 &__social-svg {
   fill: $background-color;
@@ -221,6 +247,20 @@ position: absolute;
 
 &__subscribe-form {
   position: relative;
+  text-align: center;
+
+
+  @media screen and (min-width: 768px) {
+     flex-wrap: wrap;
+     width: 500px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+     flex-wrap: nowrap;
+     width: 100%;
+     margin-left: 88px;
+     text-align: start;
+    }
 }
 
 
@@ -236,6 +276,13 @@ position: absolute;
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+     text-align: center;
+    }
+            @media screen and (min-width: 1200px) {
+              text-align: start;
+            }
 }
 
 &__subscribe-input {
@@ -243,7 +290,6 @@ position: absolute;
   border: 1px solid rgba(255, 255, 255, 0.30);
   background: rgba(33, 150, 243, 0.00);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  width: 358px;
   height: 50px;
   color: rgba(255, 255, 255, 0.60);
   font-family: Roboto;
@@ -253,13 +299,24 @@ position: absolute;
   line-height: 20px;
   letter-spacing: 0.48px;
   padding-left: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  
+
+  @media screen and (min-width: 480px) {
+      width: 450px;
+    }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-bottom: 0px;
+  }
 }
 
 
 
 
 &__subscribe-button {
-  margin-left: 12px;
   padding: 10px 62px 10px 29px;
   color: $background-color;
   text-align: center;
@@ -272,6 +329,10 @@ position: absolute;
   border-radius: 4px;
   background: $addition-color;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ 
+  @media screen and (min-width: 1200px) {
+      margin-left: 12px;
+  }
 }
 
 

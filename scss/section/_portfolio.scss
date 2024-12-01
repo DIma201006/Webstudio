@@ -1,13 +1,28 @@
 .goods {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
+    @media screen and (min-width: 1200px) {
+            padding-top: 94px;
+                padding-bottom: 94px;
+        }
 
     &__list-button {
             display: flex;
-            justify-content: center;
+            
             margin-bottom: 50px;
             gap: 8px;
+            flex-wrap: wrap;
+            
+            
+
+@media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+       
+
         }
     
         &__port-buton {
@@ -36,17 +51,31 @@
         }
     
         &__list {
-            justify-content: center;
+            
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
+
+            @media screen and (min-width: 1200px) {
+                justify-content: center;
+                }
         }
     
         &__item {
             flex-basis: calc((100% - 60px) / 3);
             @include transition;
             transition-property: box-shadow;
+
+            @media screen and (min-width: 768px) {
+                flex-basis: calc((100% - 60px) / 3);
+                }
+
+                 @media screen and (min-width: 1200px) {
+                flex-basis: calc((100% - 60px) / 3);
+                    
+                }
         }
+        
     
         &__item:hover,
         &__item:focus {
@@ -60,9 +89,19 @@
         }
     
         &__img {
-            width: 100%;
-            height: 100%;
             object-fit: cover;
+            width: 450px;
+                height: 294px;
+
+                @media screen and (min-width: 1200px) {
+                    width: 100%;
+                        height: 100%; 
+                
+                    }
+
+                    @media screen and (min-width: 768px) {
+                width: 354px;
+                    }
         }
     
         &__div-box:hover &__text-img {
@@ -86,12 +125,20 @@
             position: absolute;
             top: 100%;
             left: 0;
-            padding: 63px 24px;
+            padding: 77px 24px;
                     transition-duration: 250ms;
                         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                         transition-property: opacity ,transform; 
             background: rgba(33, 150, 243, 0.9);
             opacity: 0;
+
+            @media screen and (min-width: 768px) {
+                    padding: 49px 24px 77px 24px;
+                }
+
+            @media screen and (min-width: 1200px) {
+                padding: 63px 24px;
+                }
         }
     
  
