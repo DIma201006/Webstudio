@@ -29,6 +29,9 @@
         <a class="header__logo animate__animated animate__backInDown" href="../index.html"
           ><span class="header__logo-accent">Web</span>Studio</a
         >
+         <button class="header__menu-button" type="button" data-modal-header-open><svg class="header__burger-svg">
+          <use href="../img/symbol-defs.svg#icon-menu"></use>
+        </svg></button>
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-item animate__animated animate__backInDown">
@@ -49,6 +52,27 @@
             <a class="header__link" href="tel:+380961111111" > <svg class="header__svg" width="10px" height="15px"><use href="../img/symbol-defs.svg#icon-smartphone"></use></svg>  +38 096 111 11 11</a>
           </li>
         </ul>
+           <div class="header__menu is-hidden" data-header-modal>
+          <button class="header__menu-close" type="button" data-modal-header-close><svg class="header__menu-svg">
+            <use href="../img/symbol-defs.svg#icon-close"></use>
+          </svg></button>
+          <ul class="header__menu-list">
+            <li class="header__menu-item"><a href="../index.html" class="header__menu-link header__menu-color">Студия</a></li>
+            <li class="header__menu-item"><a href="../pages/portfolio.html" class="header__menu-link">Портфолио</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Контакты</a></li>
+          </ul>
+          <ul class="header__burger-list">
+            <li class="header__burger-item"><a href="mailto:info@devstudio.com" class="header__burger-link">info@devstudio.com</a></li>
+            <li class="header__burger-item"><a href="tel:+380961111111" class="header__burger-link-color">+38 096 111 11 11</a></li>
+          </ul>
+
+          <ul class="header__internet-list">
+            <li class="header__internet-item"><a href="#" class="header__internet-link">Instagram</a></li>
+            <li class="header__internet-item"><a href="#" class="header__internet-link">Twitter</a></li>
+            <li class="header__internet-item"><a href="#" class="header__internet-link">Facebook</a></li>
+            <li class="header__internet-item"><a href="#" class="header__internet-link">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -257,5 +281,6 @@
         </form>
       </div>
     </footer>
+    <script src="../js/menu.js"></script>
   </body>
 </html>

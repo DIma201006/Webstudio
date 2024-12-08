@@ -134,8 +134,8 @@
         &__join {
           
          
-          @media screen and (min-width: 768px) {
-              margin-right: auto;
+          @media screen and (min-width: 1200px) {
+            margin-right: auto;
             }
         }
     
@@ -217,24 +217,7 @@
 
 
 
-&__icon-telegram {
-width: 24px;
-height: 24px;
-fill: $background-color;
-position: absolute;
-    right: 147px;
-      top: 118px;
 
-    @media screen and (min-width: 768px) {
-          right: 173px;
-            top: 120px;
-      }
-
-    @media screen and (min-width: 1200px) {
-      right: 29px;
-        top: 50px;
-} 
-}
 
 &__social-svg {
   fill: $background-color;
@@ -335,16 +318,27 @@ position: absolute;
   }
 }
 
-
-
 &__icon-telegram {
   width: 24px;
   height: 24px;
   fill: $background-color;
   position: absolute;
-  right: 29px;
-  top: 50px;
+   right: 147px;
+  top: 118px;
+     
+
+  @media screen and (min-width: 768px) {
+    right: 173px;
+    top: 120px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    right: 29px;
+    top: 50px;
+  }
 }
+
+
 }
 
 
